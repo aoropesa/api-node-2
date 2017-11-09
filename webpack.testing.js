@@ -27,7 +27,7 @@ module.exports = {
                     {
                         loader: 'babel-loader',
                         options: {
-                            babellrc: false,
+                            babelrc: false,
                             presets: [['env',{modules: false}], 'stage-0'],
                             plugins: ['transform-regenerator', 'transform-runtime']
                         }

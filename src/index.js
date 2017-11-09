@@ -1,5 +1,5 @@
 import http from 'http';
-import {crateServer} from 'http';
+import {createServer} from 'http';
 import app from './server';
 const server = http.createServer(app);
 

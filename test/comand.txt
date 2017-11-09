@@ -7,3 +7,4 @@ yarn add --dev babel-core babel-loader babel-plugin-transform-regenerator
 yarn add --dev babel-plugin-transform-runtime babel-preset-env chai chai-http graphql-tag
 yarn add --dev mocha mocha-webpack raw-loader source-map-support start-server-webpack-plugin
 yarn add --dev webpack webpack-node-externals
+yarn add --dev babel-preset-stage-0
