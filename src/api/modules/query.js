@@ -39,7 +39,7 @@ export const generateControllers = (model, overrides = {}) => {
         updateOne: updateOne(model),
         createdOne: createdOne(model)
     }
-    return (...defaults, ...overrides);
-}
+    return {...defaults, ...overrides};
+};
 
 
